@@ -1,0 +1,22 @@
+ .employeesWrap {
+	padding: 0 11px;
+	padding-left: 12px;
+	box-sizing: border-box;
+	width: 708px;
+}
+
+.employeesItemWrap{
+	display: flex;
+	width: 100%;
+	margin-left: -10px;
+	margin-right: -10px;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+

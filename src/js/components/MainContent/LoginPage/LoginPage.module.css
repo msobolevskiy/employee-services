@@ -1,0 +1,84 @@
+.loginScreen {
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: hsl(220, 69%, 97%);
+	margin-top: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapperForLogin {
+	margin: 60 auto 0 auto;
+	width: 50%;
+	padding: 20px 20px 0px 20px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 3px #7b8aa2;
+}
+
+.loginHeader {
+	margin: 20px 0 10px 0;
+	font-size: 25px;
+	position: relative;
+}
+
+.loginHeaderWrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.resetBtnLogin {
+	width: 20px;
+	box-sizing: content-box;
+	color: black;
+	padding-right: 10px;
+}
+
+.resetBtnLogin:hover svg {
+	fill: #438BF9;
+}
+.loginMain {
+	display: flex;
+	margin-bottom: 30px;
+	flex-direction: column;
+}
+.loginForm {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.loginForm label {
+	text-transform: uppercase;
+	display: block;
+	margin: 0 0 3px 0;
+}
+
+.loginForm input {
+	padding: 10px;
+	width: 100%;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 3px solid rgb(115, 168, 247);
+}
+.recaptchaTriggerButton {
+	color: white;
+	padding: 10px 16px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color: hsl(216, 94%, 62%);
+}
+.field{
+	padding-top: 10px;
+}
+.content {
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+}

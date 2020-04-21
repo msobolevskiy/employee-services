@@ -1,0 +1,84 @@
+.employeeSection {
+	border-radius: 5px;
+	width: 352px;
+	padding-top: 22px;
+	font-size: 12px;
+	margin: 11px;
+}
+
+.employeePhoto {
+	width: 170px;
+	height: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.employeePhotoIcon {
+	position: absolute;
+	border-radius: 50%;
+	background-color: #B4AAFB;
+	padding: 5px;
+	width: 48px;
+	height: 48px;
+	bottom: -3px;
+	left: -4px;
+	border: 5px solid hsl(0, 0%, 100%);
+}
+
+.employeePhotoImg {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.employeeSectionInfo {
+	padding-top: 22px;
+	text-align: center;
+}
+
+.employeeMale,
+.employeeRuName {
+	opacity: 0.5;
+}
+
+.employeeName {
+	font-size: 19px;
+	opacity: 1;
+}
+
+.employeeRuName {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.employeeSectionBottom {
+	display: flex;
+	justify-content: center;
+}
+
+.employeeSectionBottom div {
+	padding: 10px;
+	border-radius: 5px;
+	color: #9a9a9a;
+	background-color: hsl(200, 22%, 89%);
+	border-radius: 25px;
+}
+
+.employeeCard {
+	margin-left: 12px;
+}
+.btnBack {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	padding: 11px;
+	background-color: #F4F7FD;
+	top: 1px;
+	left: -63px;
+	border-radius: 50%;
+}
+.content {
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+}

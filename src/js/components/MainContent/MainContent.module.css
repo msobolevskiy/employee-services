@@ -1,0 +1,16 @@
+.mainWrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex
+}
+.bgRed{
+	background-color: red;
+	width: 150px;
+	height: 150px;
+}
+.content {
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+}

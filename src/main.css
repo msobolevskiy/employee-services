@@ -1,0 +1,305 @@
+/* Reset CSS */
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.hide {
+	display: none;
+}
+body {
+	background-color: #F4F7FD;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.content {
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	background-color: #1a55b3;
+	-webkit-box-shadow: 0 1px 20px 0 rgba(0, 0, 0, .5);
+	box-shadow: 0 1px 20px 0 rgba(0, 0, 0, .5);
+	width: 100%;
+}
+
+
+
+button {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	outline: none;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+.employeesWrap {
+	padding: 0 11px;
+	padding-left: 12px;
+	box-sizing: border-box;
+	width: 708px;
+}
+
+.employeesItemWrap{
+	display: flex;
+	width: 100%;
+	margin-left: -10px;
+	margin-right: -10px;
+	flex-wrap: wrap;
+}
+.table.employeesItemWrap{
+	margin-left: 0;
+	margin-right: 0;
+	/* box-shadow: 0 0 15px 0 rgba(73, 78, 92, 0.05), 0 30px 60px 0 rgba(44, 47, 60, 0.06);
+	margin-top: 10px; */
+}
+.table.employeOuterWrap{
+	width: 100%;
+	padding: 0px;
+}
+
+.employeOuterWrap {
+	width: calc(100% / 3);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.employeWrap {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 12px;
+	background-color: white;
+	box-shadow: 0 0 15px 0 rgba(73, 78, 92, 0.05), 0 30px 60px 0 rgba(44, 47, 60, 0.06);
+	border-radius: 5px;
+	padding-top: 17px;
+	transition: .3s;
+	color: black;
+}
+
+.employeWrap:hover {
+	margin-top: -5px;
+}
+
+.employePhoto {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nativeName {
+	font-size: 19px;
+	padding-top: 17px;
+}
+
+.name {
+	opacity: 0.5;
+	padding-bottom: 25px;
+}
+
+.employeInfo {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0px;
+	margin: 0 25px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+
+.table .employeInfo {
+	border-top: none;
+}
+
+.table .employeOuterWrap:first-child>.employeWrap {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.table .employeOuterWrap:last-child>.employeWrap {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-color: #fff;
+}
+
+.table .employeOuterWrap .employeWrap:hover {
+	margin-top: 0px;
+	border: 1px solid #438bf9;
+}
+.table .employeOuterWrap {
+	width: 100%;
+	padding: 0px;
+}
+.table .employeWrap {
+	flex-direction: row;
+	align-items: center;
+	padding: 15px 0;
+	border-radius: 0px;
+	margin-right: 10px;
+}
+
+.table .employeWrap img {
+	width: 50px;
+	height: 50px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table .employeWrap .name {
+	padding-bottom: 0px;
+	text-align: left
+}
+
+.table .employeWrap .name .department {
+	padding-right: 19px;
+}
+
+.table .employeInfo {
+	padding-left: 0
+}
+
+.table .employeInfo .department {
+	width: 167px;
+	padding-right: 45%;
+}
+
+.table .employeWrap .employePhotoWrap {
+	width: 15%
+}
+
+.table .employeWrap .employeesListName {
+	width: 35%
+}
+
+.table .employeWrap .nativeName {
+	text-align: left;
+}
+
+.table .employeWrap .departmentGridIcon {
+	display: none;
+}
+
+
+.table .employeWrap {
+	box-shadow: none;
+	border: 1px solid #fff;
+	border-bottom-color: #f4f7fd;
+}
+.department,
+.cabinet {
+	display: flex;
+	align-items: center;
+}
+.departmentGridIcon {
+	width: 16px;
+	padding-right: 5px;
+}
+p.cabinetPar,
+p.departmentPar {
+	line-height: normal;
+}
+.employeesWrap {
+	padding: 0 11px;
+	padding-left: 12px;
+	box-sizing: border-box;
+	width: 708px;
+}
+
+.employeesItemWrap{
+	display: flex;
+	width: 100%;
+	margin-left: -10px;
+	margin-right: -10px;
+	flex-wrap: wrap;
+}

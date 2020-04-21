@@ -1,0 +1,102 @@
+.settinsWrap{
+	display: flex;
+	flex-direction: column;
+	padding-top: 15px;
+	width: 100%;
+}
+.settingsTitle{
+	text-transform: uppercase;
+	padding: 25px 20px;
+	border: 1px solid hsl(0, 0%, 100%);
+	background-color: white;
+}
+.settingsHeader,
+.settingsContent{
+	display: flex;
+	background-color: white;
+	align-items: center;
+	box-shadow: 0 0 15px 0 rgba(73, 78, 92, 0.05);
+	margin: 2px 0;
+    padding: 10px 20px;
+}
+.settingsContent{
+	padding: 15px 20px;
+}
+.settinsInputWrap,
+.settingsContentNameWrap{
+	width: 30%;
+	margin: 0;
+	padding-right: 45px;
+}
+.settinsInputWrap svg:last-child{
+	left: -22px;
+}
+.settingsHeaderBook,
+.settingsContentRole{
+	width: 23%;
+}
+.settingsHeaderRole,
+.settingsContentVacationRole{
+	width: 32%;
+}
+.settingsHeaderAdmin,
+.settingsContentAdmin{
+	width: 15%;
+}
+.settingsContentRole,
+.settingsContentVacationRole,
+.settingsContentAdmin{
+	display: flex;
+	
+}
+.settingsContentBtn{
+	width: 95px;
+	border: 1px solid slategrey;
+	padding: 6px;
+	text-align: center;
+}
+.settingsContentBtnActive{
+	color: white;
+	background-color: hsl(216, 94%, 62%);	
+}
+.inputWrap{
+	margin-bottom: 15px;
+	position: relative;
+}
+.inputWrap svg {
+	width: 14px;
+	position: absolute;
+	top: -webkit-calc(50% - 7px);
+	top: calc(50% - 7px);
+	left: 22px;
+	fill: #9a9a9a;
+}
+.inputWrap svg:last-child{
+	left: 230px;
+}
+.searchFormInput:active,
+.searchFormInput:focus,
+.searchFormInput:hover {
+	border-color: #438BF9;
+}
+
+.searchFormInput:active~svg,
+.searchFormInput:focus~svg,
+.searchFormInput:hover~svg {
+	fill: #438BF9;
+}
+.searchFormInput {
+	width: 100%;
+	border: 1px solid #DEE6EA;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	height: 40px;
+	outline: none;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	padding-left: 50px;
+	font-size: 11px;
+	margin-left: 14px;
+}
+

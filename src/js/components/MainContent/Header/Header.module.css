@@ -1,0 +1,75 @@
+.headerWrap {
+	padding: 13px 12px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	text-transform: uppercase;
+	color: hsl(0, 0%, 100%);
+	-webkit-box-shadow: 0px -4px 7px #104aa6;
+	box-shadow: 0px -4px 7px #104aa6;
+	align-items: center;
+}
+.logo {
+	font-size: 13px;
+}
+
+.logoName {
+	font-size: 10px;
+	opacity: 0.5;
+}
+
+.headerButton {
+	width: 30px;
+	height: 30px;
+	border-color: #104aa6;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #104aa6;
+	margin-left: 20px;
+	align-items: baseline;
+}
+
+.headerButtonAddres,
+.headerButtonSettings{
+	font-size: 13px;
+	padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+}
+.headerButtonActive{
+	background-color: hsl(217, 82%, 36%);
+}
+#login-name{
+	padding-right: 26px;
+    padding-top: 3px;
+}
+.btnLogin{
+	margin-right: 10px;
+	color: white;
+	background-color: hsl(217, 82%, 36%);
+	border: none;
+	border-radius: 15px;
+    padding: 0 20px;
+}
+.headerButtons{
+	display: flex;
+}
+.loginName{
+	padding-right: 26px;
+    padding-top: 3px;
+}
+.content {
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a{
+	color: hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+

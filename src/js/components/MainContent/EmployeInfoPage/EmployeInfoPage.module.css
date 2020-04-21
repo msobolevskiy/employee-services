@@ -1,0 +1,10 @@
+.infoPageWrap {
+	display: flex;
+	background-color: white;
+	margin: 11px auto;
+	width: 100%;
+}
+.hide{
+	display: none;
+}
+
